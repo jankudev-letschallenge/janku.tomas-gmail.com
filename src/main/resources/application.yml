@@ -1,0 +1,26 @@
+# defaults
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: dev
+
+  main:
+    banner-mode: off
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 665972897917-kk485gsbmdbimsc02sigam3lkssnlh6n.apps.googleusercontent.com
+            client-secret: y7tKbVZ9HV0IBR5zbHjBW7T0
+          facebook:
+            client-id: 506366826720467
+            client-secret: 0cf0407f3af153ecacc34a2a1afb527e
+
+  thymeleaf:
+    encoding: utf-8
+    servlet:
+      content-type: text/html
